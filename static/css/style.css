@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  padding: 50px 250px;
+  background-color: #cfe8f8;
+  color: #333;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.index ul {
+  list-style-type: none;
+}
+
+.index li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.index li.complete {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.task-title p{
+  display: inline-block;
+  padding: 10px 10px;
+  color: #0a48a0;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.task-date {
+  font-size: 14px;
+  color: #666;
+}
+
+.task-description {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.add {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.add form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.add form input,
+.add form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add form button:hover {
+  background-color: #0056b3;
+}
+
+.add .field-error {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.add-task-link a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+}
+
+.add-task-link a:hover {
+  background-color: #0056b3;
+}
+
+.buttons {
+  display: flex;
+  text-align: center;
+  margin-top: 5px;
+  gap: 10px;
+}
+
+.edit-button {
+  background-color: #00b345;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.edit-button:hover {
+  background-color: #008031;
+}
+
+.delete-button {
+  background-color: #dc3000;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: #922000;
+}
